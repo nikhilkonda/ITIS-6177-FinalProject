@@ -63,7 +63,7 @@ http://178.128.159.37:3000/docs/
 
 ### Output:
 
-It comprises sentiment labels or scores for the given input text, indicating the sentiment's polarity (positive, negative, or neutral), as well as maybe its strength or magnitude.
+It comprises sentiment labels or scores for the given input text, indicating the Confidence Scores (positive, negative, or neutral).
 
 # Setup in Local
 
