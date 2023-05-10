@@ -71,7 +71,7 @@ app.post("/sentiment/", (req, res) => {
             .then(result => res.status(200).send(result))
             .catch(err => res.status(500).send({ 'status_code': 500, 'error': err }));
     } else {
-        res.status(400).send({ 'status_code': 400, 'error': 'Invalid input, must contain text attribute in the json object' })
+        res.status(400).send({ 'status_code': 400, 'error': 'Expecting only text attributes in the JSON object' })
     }
 
 });
